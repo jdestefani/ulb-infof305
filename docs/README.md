@@ -1,6 +1,6 @@
 # Slides
-- [TP1](TP1_EDO.html)
-- TP2
+- [TP1 - Rappel sur les équations différentielles ordinaires](TP1_EDO.html)
+- [TP2 - Portrait de phase I ](TP2_Portrait_de_phase_I.html)
 
 # Comment installer Octave / Jupyter?
 
