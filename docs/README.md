@@ -1,5 +1,5 @@
 # Slides
-- TP1
+- [TP1](TP1_EDO.html)
 - TP2
 
 # Comment installer Octave / Jupyter?
