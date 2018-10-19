@@ -6,7 +6,7 @@ python:
 
 install:
     - pip install jupyter
-
-script:
 	- make --version
+	
+script:
     - make -n
