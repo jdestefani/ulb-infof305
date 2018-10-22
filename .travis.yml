@@ -1,0 +1,12 @@
+language: python
+cache: pip
+
+python:
+    - "3.6"
+
+install:
+    - pip install jupyter
+	- make --version
+	
+script:
+    - make -n
