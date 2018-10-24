@@ -22,5 +22,5 @@ after_success:
   - git config user.name ${GITHUB_USER}
   - git add docs/*.html
   - git commit -m "${MESSAGE}"
-  - git push "https://${GITHUB_TOKEN}@${GH_REPO}" master > /dev/null 2>&1
+  - git push "https://${GITHUB_TOKEN}@${GH_REPO}" master
 
