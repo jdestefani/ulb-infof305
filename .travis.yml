@@ -8,7 +8,7 @@ env:
   - GITHUB_USER="jdestefani"
   - GITHUB_EMAIL="jacopo.de.stefani@gmail.com"
   - REPO="ulb-infof305-1819"
-  - GH_REPO="github.com/${GIT_USER}/${REPO}.git"
+  - GH_REPO="github.com/${GITHUB_USER}/${REPO}.git"
 
 install:
   - pip install jupyter
