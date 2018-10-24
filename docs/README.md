@@ -2,6 +2,7 @@
 - [TP1 - Rappel sur les équations différentielles ordinaires](TP1_EDO.html)
 - [TP2 - Portrait de phase I ](TP2_Portrait_de_phase_I.html)
 - [TP3 - Portrait de phase II ](TP3_Portrait_de_phase_II.html)
+- [TP4 - Portrait de phase III ](TP4_Portrait_de_phase_III.html)
 
 # Comment installer Octave / Jupyter?
 
