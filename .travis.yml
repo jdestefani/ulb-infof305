@@ -21,11 +21,9 @@ after_success:
   - git config user.email ${GITHUB_EMAIL}
   - git config user.name ${GITHUB_USER}
   - git remote add origin-master "https://${GITHUB_TOKEN}@${GH_REPO}"
-  - git branch my-temporary-work
+  - git checkout master
   - git add docs/*.html
   - git commit -m "${MESSAGE}"
-  - git checkout master
-  - git merge my-temporary-work
   - git push --quiet --set-upstream origin-master master
 
 
