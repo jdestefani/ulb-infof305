@@ -5,10 +5,9 @@ python:
     - "3.6"
 env:
   global:
-  - GIT_USER="jdestefani"
-  - EMAIL="jacopo.de.stefani@gmail.com"
+  - GITHUB_USER="jdestefani"
+  - GITHUB_EMAIL="jacopo.de.stefani@gmail.com"
   - REPO="ulb-infof305-1819"
-  - FILES="README.md foo.txt bar.txt"
   - GH_REPO="github.com/${GIT_USER}/${REPO}.git"
 
 install:
@@ -18,12 +17,12 @@ script:
     - make
 
 after_success:
-  - MESSAGE=$(git log --format=%B -n 1 $TRAVIS_COMMIT)
+  - MESSAGE=$(git log --format=%B -n 1 "${TRAVIS_COMMIT}")
   - git clone git://${GH_REPO}
   - git remote
-  - git config user.email ${EMAIL}
-  - git config user.name ${GIT_USER}
-  - git add -u 
+  - git config user.email ${GITHUB_EMAIL}
+  - git config user.name ${GITHUB_USER}
+  - git add docs/*.html
   - git commit -m ${MESSAGE}
   - git push "https://${GITHUB_TOKEN}@${GH_REPO}" master > /dev/null 2>&1
 
