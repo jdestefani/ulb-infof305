@@ -5,11 +5,11 @@ python:
     - "3.6"
 env:
   global:
-  - USER="jdestefani"
+  - GIT_USER="jdestefani"
   - EMAIL="jacopo.de.stefani@gmail.com"
   - REPO="ulb-infof305-1819"
   - FILES="README.md foo.txt bar.txt"
-  - GH_REPO="github.com/${USER}/${REPO}.git"
+  - GH_REPO="github.com/${GIT_USER}/${REPO}.git"
 
 install:
   - pip install jupyter
@@ -22,7 +22,7 @@ after_success:
   - git clone git://${GH_REPO}
   - git remote
   - git config user.email ${EMAIL}
-  - git config user.name ${USER}
+  - git config user.name ${GIT_USER}
   - git add -u 
   - git commit -m ${MESSAGE}
   - git push "https://${GITHUB_TOKEN}@${GH_REPO}" master > /dev/null 2>&1
