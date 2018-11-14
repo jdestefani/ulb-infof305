@@ -3,7 +3,8 @@
 - [TP2 - Portrait de phase I ](TP2_Portrait_de_phase_I.html)
 - [TP3 - Portrait de phase II ](TP3_Portrait_de_phase_II.html)
 - [TP4 - Portrait de phase III ](TP4_Portrait_de_phase_III.html)
-- [TP5-6 - Simulation à l'aide d'Octave](TP5_6_Simulation.html)
+- [TP5 - Simulation à l'aide d'Octave - Ordre 1](TP5_Simulation_Ordre_1.html)
+- [TP5 - Simulation à l'aide d'Octave - Ordre 1](TP6_Simulation_Ordre_2.html)
 
 # Comment installer Octave / Jupyter?
 
