@@ -5,7 +5,9 @@
 - [TP4 - Portrait de phase III ](TP4_Portrait_de_phase_III.html)
 - [TP5 - Simulation à l'aide d'Octave - Ordre 1](TP5_Simulation_Ordre_1.html)
 - [TP6 - Simulation à l'aide d'Octave - Ordre 2](TP6_Simulation_Ordre_2.html)
-- [TP7 - Portrait de phase IV ](TP7_Portrait_de_phase_IV.html)
+- [TP7 - Portrait de phase IV](TP7_Portrait_de_phase_IV.html)
+- [TP8 - Equations aux différences I](TP8_Equations_aux_differences_I.html)
+- [TP9 - Equations aux différences II](TP9_Equations_aux_differences_II.html)
 
 # Comment installer Octave / Jupyter?
 
@@ -28,3 +30,7 @@ git clone https://github.com/jdestefani/ulb-infof305-1819.git
 cd ulb-infof305-1819
 jupyter notebook
 ```
+
+# License
+
+<a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/4.0/"><img alt="Creative Commons License" style="border-width:0" src="https://i.creativecommons.org/l/by-nc-sa/4.0/88x31.png" /></a><br /><span xmlns:dct="http://purl.org/dc/terms/" property="dct:title">INFO-F-305 - Modélisation et Simulation - A.A. 2018-2019</span> by <a xmlns:cc="http://creativecommons.org/ns#" href="https://jdestefani.github.io" property="cc:attributionName" rel="cc:attributionURL">Jacopo De Stefani</a> is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/4.0/">Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License</a>.<br />Based on a work at <a xmlns:dct="http://purl.org/dc/terms/" href="https://github.com/jdestefani/ulb-infof305-1819" rel="dct:source">https://github.com/jdestefani/ulb-infof305-1819</a>.
