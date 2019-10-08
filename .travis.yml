@@ -7,7 +7,7 @@ env:
   global:
   - GITHUB_USER="jdestefani"
   - GITHUB_EMAIL="jacopo.de.stefani@gmail.com"
-  - REPO="ulb-infof305-1819"
+  - REPO="ulb-infof305"
   - GH_REPO="github.com/${GITHUB_USER}/${REPO}.git"
 
 install:
