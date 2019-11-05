@@ -24,3 +24,5 @@ cd ulb-infof305
 jupyter notebook
 ```
 
+# Démo Interactive
+[![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/jdestefani/ulb-infof305/master)
