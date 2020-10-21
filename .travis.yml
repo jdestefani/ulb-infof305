@@ -20,7 +20,7 @@ after_success:
   - MESSAGE=$(git log --format=%B -n 1 "${TRAVIS_COMMIT}")
   - git config user.email ${GITHUB_EMAIL}
   - git config user.name ${GITHUB_USER}
-  - git remote add origin-master "https://${GITHUB_USER}:${GITHUB_TOKEN}@${GH_REPO}"
+  - git remote add origin-master "https://${GITHUB_TOKEN}:x-oauth-basic@${GH_REPO}"
   - git checkout master
   - git add docs/*.html
   - git commit -m "${MESSAGE}"
